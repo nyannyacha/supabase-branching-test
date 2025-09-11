@@ -344,3 +344,14 @@ entrypoint = "./functions/meeeeow/index.ts"
 # Specifies static files to be bundled with the function. Supports glob patterns.
 # For example, if you want to serve static HTML pages in your function:
 # static_files = [ "./functions/meeeeow/*.html" ]
+
+[functions.meow2]
+enabled = true
+verify_jwt = false
+import_map = "./functions/meow2/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/meow2/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/meow2/*.html" ]
