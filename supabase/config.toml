@@ -337,7 +337,6 @@ s3_secret_key = "env(S3_SECRET_KEY)"
 [functions.meeeeow]
 enabled = true
 verify_jwt = false
-import_map = "./functions/meeeeow/deno.json"
 # Uncomment to specify a custom file path to the entrypoint.
 # Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
 entrypoint = "./functions/meeeeow/index.ts"
@@ -348,7 +347,6 @@ entrypoint = "./functions/meeeeow/index.ts"
 [functions.meow2]
 enabled = true
 verify_jwt = false
-import_map = "./functions/meow2/deno.json"
 # Uncomment to specify a custom file path to the entrypoint.
 # Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
 entrypoint = "./functions/meow2/index.ts"
